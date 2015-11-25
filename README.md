@@ -1,5 +1,5 @@
 ***
-HelloArduinoBLE - An attempt to connect BLE with Arduino for Android. 
+HelloArduinoBLE - An attempt to connect BLE with Arduino using GATT for Android. 
 ***
 ```
 Requirements:
