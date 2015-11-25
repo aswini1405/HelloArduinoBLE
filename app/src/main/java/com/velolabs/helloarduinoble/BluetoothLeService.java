@@ -325,7 +325,6 @@ public class BluetoothLeService extends Service {
      */
     public List<BluetoothGattService> getSupportedGattServices() {
         if (mBluetoothGatt == null) return null;
-
         return mBluetoothGatt.getServices();
     }
     public void addGattServerService(BluetoothGattService service)
@@ -337,10 +336,8 @@ public class BluetoothLeService extends Service {
         mBluetoothGattServer = mBluetoothManager.openGattServer(this, mGattServerCallback);
         BluetoothGattService service = new BluetoothGattService(UUID.fromString(SampleGattAttributes.FAN_CONTROL_SERVICE_UUID), BluetoothGattService.SERVICE_TYPE_PRIMARY);
         BluetoothGattCharacteristic characteristic = new BluetoothGattCharacteristic(UUID.fromString(SampleGattAttributes.FAN_OPERATING_STATE), BluetoothGattCharacteristic.FORMAT_UINT8, BluetoothGattCharacteristic.PERMISSION_WRITE );
-
         service.addCharacteristic(characteristic);
         mBluetoothGattServer.addService(service);
-        Log.d("HELLO", "Created our own GATT server.\r\n");
-
+        Log.d("SUCCESS!", "Created our own GATT server.\r\n");
     }
 }

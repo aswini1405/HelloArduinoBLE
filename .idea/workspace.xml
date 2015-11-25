@@ -70,17 +70,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BluetoothLeService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BluetoothLeService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/velolabs/helloarduinoble/BluetoothLeService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30053666">
-              <caret line="328" column="44" selection-start-line="328" selection-start-column="44" selection-end-line="328" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#8737#8738#0" expanded="true" />
                 <element signature="e#8791#8792#0" expanded="true" />
                 <element signature="e#8854#8855#0" expanded="true" />
                 <element signature="e#8884#8885#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeviceScanActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/velolabs/helloarduinoble/DeviceScanActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.66547406">
+              <caret line="219" column="14" selection-start-line="219" selection-start-column="14" selection-end-line="219" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#5326#5587#0" expanded="true" />
+                <element signature="e#5586#5587#0" expanded="true" />
+                <element signature="e#6485#6486#0" expanded="true" />
+                <element signature="e#6540#6541#0" expanded="true" />
+                <element signature="e#6570#6571#0" expanded="true" />
+                <element signature="e#6612#6613#0" expanded="true" />
+                <element signature="e#6662#6663#0" expanded="true" />
+                <element signature="e#6710#6711#0" expanded="true" />
+                <element signature="e#6767#6768#0" expanded="true" />
+                <element signature="e#6815#6816#0" expanded="true" />
+                <element signature="e#6872#6873#0" expanded="true" />
+                <element signature="e#6904#6905#0" expanded="true" />
+                <element signature="e#8081#8596#0" expanded="true" />
+                <element signature="e#8279#8562#0" expanded="true" />
+                <element signature="e#8561#8562#0" expanded="true" />
+                <element signature="e#8595#8596#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1623,6 +1650,7 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/java/com/velolabs/helloarduinoble/DeviceControlActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/velolabs/helloarduinoble/BluetoothLeService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/velolabs/helloarduinoble/DeviceScanActivity.java" />
       </list>
     </option>
   </component>
@@ -1980,14 +2008,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/velolabs/helloarduinoble/BluetoothLeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30053666">
-          <caret line="328" column="44" selection-start-line="328" selection-start-column="44" selection-end-line="328" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#8737#8738#0" expanded="true" />
             <element signature="e#8791#8792#0" expanded="true" />
             <element signature="e#8854#8855#0" expanded="true" />
             <element signature="e#8884#8885#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/velolabs/helloarduinoble/DeviceScanActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66547406">
+          <caret line="219" column="14" selection-start-line="219" selection-start-column="14" selection-end-line="219" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5326#5587#0" expanded="true" />
+            <element signature="e#5586#5587#0" expanded="true" />
+            <element signature="e#6485#6486#0" expanded="true" />
+            <element signature="e#6540#6541#0" expanded="true" />
+            <element signature="e#6570#6571#0" expanded="true" />
+            <element signature="e#6612#6613#0" expanded="true" />
+            <element signature="e#6662#6663#0" expanded="true" />
+            <element signature="e#6710#6711#0" expanded="true" />
+            <element signature="e#6767#6768#0" expanded="true" />
+            <element signature="e#6815#6816#0" expanded="true" />
+            <element signature="e#6872#6873#0" expanded="true" />
+            <element signature="e#6904#6905#0" expanded="true" />
+            <element signature="e#8081#8596#0" expanded="true" />
+            <element signature="e#8279#8562#0" expanded="true" />
+            <element signature="e#8561#8562#0" expanded="true" />
+            <element signature="e#8595#8596#0" expanded="true" />
           </folding>
         </state>
       </provider>
